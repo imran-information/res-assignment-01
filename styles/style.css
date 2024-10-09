@@ -142,7 +142,7 @@
 }
 
 .i-frame {
-    
+
     margin-top: 90px;
 
 }
@@ -152,17 +152,18 @@
     padding: 32px;
     border-radius: 16px;
     margin-bottom: 100px;
-    
+
 }
 
-.skills-container{
+.skills-container {
     display: flex;
     margin-top: 60px;
     align-items: center;
     justify-content: center;
     column-gap: 10px;
 }
-.skill{
+
+.skill {
     border: 1px solid white;
     padding: 30px;
     width: 33%;
@@ -170,12 +171,88 @@
     background-color: #ffdad931;
     border-radius: 16px;
 }
-.skill-2{
+
+.skill-2 {
     background-color: rgba(255, 228, 196, 0.325);
 }
-.skill-3{
-background-color: rgba(210, 185, 214, 0.167);
+
+.skill-3 {
+    background-color: rgba(210, 185, 214, 0.167);
 }
-.more{
+
+.more {
     color: black;
+}
+
+
+.next-target {
+    margin-top: 100px;
+}
+
+.netx-target-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(240, 255, 255, 0.708);
+    border: 1px solid;
+    padding: 40px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+}
+
+.target-sub {
+    font-size: 14px;
+    color: #5a5b5e;
+    font-weight: 200;
+}
+
+.targett-title {
+    margin-left: 50px;
+}
+
+
+.support-title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    padding: 50px 200px 0 200px;
+}
+
+.support-sub {
+    font-size: 16px;
+    padding: 0px 200px 0 200px;
+    text-align: center;
+    color: white;
+}
+
+.btn-sub-1 {
+
+    width: 200px;
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.btn-sub {
+    padding: 15px 20px;
+    border: 0;
+    font-size: 16px;
+    border-radius: 8px;
+    color: rgb(73, 71, 71);
+    font-weight: bold;
+}
+
+footer {
+    background-color: #9d9ea0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 100px;
+    color: white;
 }
